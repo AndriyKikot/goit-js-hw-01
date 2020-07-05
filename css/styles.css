@@ -1,0 +1,9 @@
+.title {
+  text-align: center;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
