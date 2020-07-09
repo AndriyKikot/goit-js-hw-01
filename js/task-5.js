@@ -7,6 +7,7 @@ const countryIndia = "Индия";
 const countryJamaica = "Ямайка";
 
 let price;
+let message;
 
 const userCountry = prompt(
   "Введите страну, куда необходимо совершить доставку"
@@ -22,37 +23,32 @@ if (userCountry === null) {
   switch (normalizedCountry) {
     case "китай":
       price = 100;
-      console.log(
-        `"Доставка в ${countryChina} будет стоить ${price} кредитов"`
-      );
+      message = `"Доставка в ${countryChina} будет стоить ${price} кредитов"`;
+      console.log(message);
       break;
 
     case "чили":
       price = 250;
-      console.log(
-        `"Доставка в ${countryChili} будет стоить ${price} кредитов"`
-      );
+      message = `"Доставка в ${countryChili} будет стоить ${price} кредитов"`;
+      console.log(message);
       break;
 
     case "австралия":
       price = 170;
-      console.log(
-        `"Доставка в ${countryАustralia} будет стоить ${price} кредитов"`
-      );
+      message = `"Доставка в ${countryАustralia} будет стоить ${price} кредитов"`;
+      console.log(message);
       break;
 
     case "индия":
       price = 80;
-      console.log(
-        `"Доставка в ${countryIndia} будет стоить ${price} кредитов"`
-      );
+      message = `"Доставка в ${countryIndia} будет стоить ${price} кредитов"`;
+      console.log(message);
       break;
 
     case "ямайка":
       price = 120;
-      console.log(
-        `"Доставка в ${countryJamaica} будет стоить ${price} кредитов"`
-      );
+      message = `"Доставка в ${countryJamaica} будет стоить ${price} кредитов"`;
+      console.log(message);
       break;
 
     default:

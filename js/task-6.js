@@ -2,7 +2,6 @@
 
 let input;
 let total = 0;
-let validInput;
 
 do {
   input = prompt(
